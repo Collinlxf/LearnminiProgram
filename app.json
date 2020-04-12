@@ -11,7 +11,7 @@
     "navigationBarTitleText": "任务预约平台",
     "backgroundColor": "orange",
     "backgroundTextStyle": "light",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
 "tabBar": {
   "selectedColor": "#ff57777",
