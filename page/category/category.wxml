@@ -1,2 +1,6 @@
 <!--page/category/category.wxml-->
 <text>page/category/category.wxml</text>
+<view>我是分类界面</view>
+
+<button size = 'mini' bindtap="handleBtnClick">按钮</button>
+<view>{{message}}</view>
