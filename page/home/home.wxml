@@ -1,4 +1,7 @@
 <!--page/home/home.wxml-->
 <text class = 'title'>Hello World</text>
 <button size="mini">按钮</button>
+
+<view bindtap="handleViewClick">{{message}}</view>
+
 <image src = "http://suo.im/6xWrVO"></image>
