@@ -1,0 +1,11 @@
+.content{
+  background: purple !important;
+}
+
+.content1{
+  font-size: 32px;
+}
+
+.content2{
+  font-size: 32rpx;
+}

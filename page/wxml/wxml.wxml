@@ -1,0 +1,30 @@
+<!--page/wxml/wxml.wxml-->
+
+<!-- 1.wxml的格式-->
+<!-- <view></view>
+<image/>
+<input/> -->
+
+<!-- 2.Mustache -->
+<view>你好小程序</view>
+<view>{{message}}</view>
+<view>{{firstname}} {{lastname}}</view>
+<view>{{firstname + ' ' + lastname}}</view>
+<view>{{age >= 18 ? '成年人' : '未成年人'}}</view>
+
+<view>{{nowTime}}</view>
+
+<button size="mini" bindtap="handleSwitchColor">切换颜色</button>
+<view class="box {{isActive ? 'active': ''}}">哈哈哈哈</view>
+
+<view> ---------- 条件判断 ---------</view>
+<!-- 3.wx:if的使用 -->
+<button size="mini" bindtap="handleSwitchShow">切换显示</button>
+<view wx:if = "{{isShow}}">哈哈哈</view>
+
+<!-- 4.wx:elif/wx:else的使用 -->
+<button size="mini" bindtap="handleIncrement">分数递增</button>
+<view wx:if = "{{score >= 90}}">优秀</view>
+<view wx:elif = "{{score >= 80}}">良好</view>
+<view wx:elif = "{{score >= 60}}">及格</view>
+<view wx:else>不及格</view>
